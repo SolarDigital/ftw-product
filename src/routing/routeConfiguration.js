@@ -11,6 +11,12 @@ import NotFoundPage from '../containers/NotFoundPage/NotFoundPage';
 // at that point css bundling / imports will happen in wrong order.
 import { NamedRedirect } from '../components';
 
+const FAQPage = loadable(() =>
+  import (
+    /* webpackChunkName: "FAQPage" */ '/Users/baldevgill/notebased.com/ftw-product/src/containers/FAQPage/FAQPage.js'
+  )
+);
+
 const pageDataLoadingAPI = getPageDataLoadingAPI();
 
 const AboutPage = loadable(() => import(/* webpackChunkName: "AboutPage" */ '../containers/AboutPage/AboutPage'));
@@ -76,6 +82,11 @@ const routeConfiguration = () => {
       path: '/about',
       name: 'AboutPage',
       component: AboutPage,
+    },
+    {
+      path: '/faq',
+      name: 'FAQPage',
+      component: FAQPage,
     },
     {
       path: '/s',
