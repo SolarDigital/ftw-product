@@ -11,11 +11,7 @@ import NotFoundPage from '../containers/NotFoundPage/NotFoundPage';
 // at that point css bundling / imports will happen in wrong order.
 import { NamedRedirect } from '../components';
 
-const FAQPage = loadable(() =>
-  import (
-    /* webpackChunkName: "FAQPage" */ '/Users/baldevgill/notebased.com/ftw-product/src/containers/FAQPage/FAQPage.js'
-  )
-);
+
 
 const pageDataLoadingAPI = getPageDataLoadingAPI();
 
@@ -25,6 +21,7 @@ const CheckoutPage = loadable(() => import(/* webpackChunkName: "CheckoutPage" *
 const ContactDetailsPage = loadable(() => import(/* webpackChunkName: "ContactDetailsPage" */ '../containers/ContactDetailsPage/ContactDetailsPage'));
 const EditListingPage = loadable(() => import(/* webpackChunkName: "EditListingPage" */ '../containers/EditListingPage/EditListingPage'));
 const EmailVerificationPage = loadable(() => import(/* webpackChunkName: "EmailVerificationPage" */ '../containers/EmailVerificationPage/EmailVerificationPage'));
+const FAQPage = loadable(() => import (/* webpackChunkName: "FAQPage" */ '/Users/baldevgill/notebased.com/ftw-product/src/containers/FAQPage/FAQPage.js'));
 const InboxPage = loadable(() => import(/* webpackChunkName: "InboxPage" */ '../containers/InboxPage/InboxPage'));
 const LandingPage = loadable(() => import(/* webpackChunkName: "LandingPage" */ '../containers/LandingPage/LandingPage'));
 const ListingPageHeroImage = loadable(() => import(/* webpackChunkName: "ListingPageHeroImage" */ /* webpackPrefetch: true */ '../containers/ListingPage/ListingPageHeroImage'));

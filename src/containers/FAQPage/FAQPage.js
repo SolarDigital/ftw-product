@@ -45,5 +45,3 @@ const FAQPage = () => {
     </StaticPage>
   );
 };
-    
-export default FAQPage
