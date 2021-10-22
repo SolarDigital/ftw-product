@@ -8,8 +8,6 @@ import {
   Footer,
 } from '../../components';
 
-import config from 'src/Users/baldevgill/notebased.com/ftw-product/src/config/index.js'
-
 
 import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
