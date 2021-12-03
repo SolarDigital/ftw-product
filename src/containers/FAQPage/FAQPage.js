@@ -12,7 +12,7 @@ import {
 import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
 
-import css from '/Users/baldevgill/notebased.com/ftw-product/src/containers/FAQPage/FAQPage.module.css';
+import css from '../../containers/FAQPage/FAQPage.module.css';
 
 const FAQPage = () => {
   // prettier-ignore
