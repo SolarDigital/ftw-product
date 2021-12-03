@@ -31,7 +31,7 @@
 }
 
 .heroRoot {
-  @apply --backgroundImage;
+  background-color: burlywood  ;
   display: flex;
   flex-direction: column;
   width: 100%;
