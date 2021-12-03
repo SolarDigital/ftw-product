@@ -47,7 +47,7 @@ import ConfirmSignupForm from './ConfirmSignupForm/ConfirmSignupForm';
 import LoginForm from './LoginForm/LoginForm';
 import SignupForm from './SignupForm/SignupForm';
 
-import css from './AuthenticationPage.module.css';
+import css from '../../containers/AuthenticationPage/AuthenticationPage.module.css';
 import { FacebookLogo, GoogleLogo } from './socialLoginLogos';
 
 export class AuthenticationPageComponent extends Component {
