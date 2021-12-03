@@ -29,9 +29,7 @@
 
 .root {
   /* Gradient direction and overlaying the black color on top of the image for better readability */
-  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url('/Users/baldevgill/notebased.com/ftw-product/src/assets/background-1400.jpg');
-  background-color: var(--matterColor);
+  background-color: burlywood;
   background-size: cover;
   background-position: center center;
 
