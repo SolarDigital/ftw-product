@@ -29,7 +29,7 @@
 }
 
 .heroRoot {
-  @apply --backgroundImage;
+  background: url(/Users/baldevgill/notebased.com/ftw-product/src/assets/background-1400.jpg);
   display: flex;
   flex-direction: column;
   width: 100%;
