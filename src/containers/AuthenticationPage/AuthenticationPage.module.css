@@ -13,7 +13,7 @@
   @apply --marketplaceModalRootStyles;
 
   @media (--viewportMedium) {
-    @apply --backgroundImage;
+    @apply 'src/assets/background-1400.jpg';
   }
 }
 
