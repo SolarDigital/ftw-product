@@ -29,7 +29,7 @@
 
 .root {
   /* Gradient direction and overlaying the black color on top of the image for better readability */
-  background-color: burlywood;
+  @apply --background;
   background-size: cover;
   background-position: center center;
 
