@@ -25,7 +25,6 @@ import SectionHero from './SectionHero/SectionHero';
 import SectionHowItWorks from './SectionHowItWorks/SectionHowItWorks';
 import SectionFilteredSearches from './SectionFilteredSearches/SectionFilteredSearches';
 import css from './LandingPage.module.css';
-import backgroundimage from '../../assets/background-1400.jpg'
 
 
 

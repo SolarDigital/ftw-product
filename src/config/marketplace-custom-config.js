@@ -60,6 +60,7 @@ export const filters = [
         { key: 'the daily deli', label: 'The Daily Deli'},
         { key: 'coffee, tea & beverages', label: 'Coffee, Tea & Beverages'},
         { key: 'sweets & snacks', label: 'Sweets & Snacks'},
+        { key: 'flowers', label: 'Flowers'},
         { key: 'gift baskets', label: 'Gift Baskets'},
         { key: 'other', label: 'Other'},
       ],
