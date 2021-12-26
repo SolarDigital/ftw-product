@@ -28,13 +28,21 @@ const FAQPage = () => {
 
             <div>
             <h3>What is NoteBased?</h3>
+
             <p>Answer: Lorem ipsum</p>
+
             <h3>Why did we create NoteBased?</h3>
+
             <p>Answer: </p>
+
             <h3>Who is NoteBased for?</h3>
+
             <p>Answer: </p>
+
             <h3>How does NoteBased work?</h3>
+
             <p>Answer: </p>
+            
             </div>
 
         </LayoutWrapperMain>
