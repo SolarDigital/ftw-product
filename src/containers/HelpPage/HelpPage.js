@@ -27,7 +27,7 @@ const HelpPage = () => {
             <div>
               <h2>How can our team help you</h2>
               <p>If you are having any issues or have any concerns you would like addressed, please don't hesitate to contact help@notebased.com.
-                Our team would lvoe to assist you!
+                Our team would love to assist you!
               </p>
             </div>
           </LayoutWrapperMain>
