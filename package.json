@@ -123,7 +123,7 @@
     ]
   },
   "engines": {
-    "node": "14.18.0",
+    "node": "16.13.2",
     "yarn": "1.22.15",
     "npm": "6.14.15"
   },
@@ -131,5 +131,5 @@
     "singleQuote": true,
     "trailingComma": "es5",
     "proseWrap": "always"
-  }  
+  }
 }
